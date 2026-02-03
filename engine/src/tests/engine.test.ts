@@ -13,7 +13,6 @@ vi.mock("../RedisManager", () => ({
     }
 }));
 
-
 describe("Engine", () => {
     //TODO: How to test the singleton class RedisManager directly?
     it("Publishes Trade updates", () => {

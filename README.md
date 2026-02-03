@@ -55,6 +55,11 @@ This project is fully containerized. Follow these steps to get all services up a
       cp ws/.env.example ws/.env
       ```
       *(Default values should work for most local setups.)*
+    
+    - Create a public folder in the frontend directory:
+      ```bash
+      mkdir frontend/public
+      ```
 
 3. **Build the Application**
 
